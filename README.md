@@ -25,3 +25,5 @@ Update wp-config.php with correct DB settings
 link :- http://localhost/LearningPlatformAssignment/wp-login.php
 username : divya
 password : password
+
+#Refer to screenshot attached "image.png" in the same file
