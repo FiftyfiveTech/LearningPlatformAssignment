@@ -1,0 +1,30 @@
+.member-navbar nav ul li.menu-icon-dashboard > a::before {
+content: '\f015'; font-family: 'Font Awesome 6 Free';
+font-weight: 900;
+margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-algo > a::before {
+content: '\f085'; font-family: 'Font Awesome 6 Free';
+font-weight: 900;
+margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-portfolio > a::before {
+content: '\f0b1'; font-family: 'Font Awesome 6 Free';
+font-weight: 900;
+margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-charts > a::before {
+content: '\f080'; font-family: 'Font Awesome 6 Free';
+font-weight: 900;
+margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-planner > a::before {
+content: '\f073'; font-family: 'Font Awesome 6 Free';
+font-weight: 900;
+margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-bonus > a::before {
+content: '\f4b3'; font-family: 'Font Awesome 6 Free';
+font-weight: 900;
+margin-right: 6px;
+}

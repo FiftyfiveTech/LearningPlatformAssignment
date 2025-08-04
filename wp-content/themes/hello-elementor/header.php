@@ -9,7 +9,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
-<?php //get_template_part('template-parts/member-nav'); ?>
 
 $viewport_content = apply_filters( 'hello_elementor_viewport_content', 'width=device-width, initial-scale=1' );
 $enable_skip_link = apply_filters( 'hello_elementor_enable_skip_link', true );
