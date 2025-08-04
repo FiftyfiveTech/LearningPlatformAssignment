@@ -1,0 +1,78 @@
+/*
+Theme Name: Hello Elementor Child
+Template: hello-elementor
+*/
+
+
+.member-navbar nav ul li.menu-icon-dashboard > a::before {
+  content: '\f015'; /* Dashboard icon */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-algo > a::before {
+  content: '\f085'; /* Settings icon for Algos */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-portfolio > a::before {
+  content: '\f0b1'; /* Briefcase icon */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-charts > a::before {
+  content: '\f080'; /* Chart icon */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-planner > a::before {
+  content: '\f073'; /* Calendar icon */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  margin-right: 6px;
+}
+.member-navbar nav ul li.menu-icon-bonus > a::before {
+  content: '\f4b3'; /* Gift icon */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  margin-right: 6px;
+}
+
+/*
+Theme Name: Hello Elementor Child
+Template: hello-elementor
+*/
+
+body {
+  background-color: #f7f9fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.woocommerce div.product {
+  margin-bottom: 0;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+/* Shop Page Sidebar Styling */
+#shop-sidebar .widget {
+  background: #f9f9f9 !important;
+  padding: 15px !important;
+  margin-bottom: 20px !important;
+  border-radius: 8px !important;
+}
