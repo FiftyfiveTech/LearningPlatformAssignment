@@ -21,7 +21,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp_learning_platform' );
+define( 'DB_NAME', 'learning_platform' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -37,6 +37,8 @@ define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+define( 'FS_METHOD', 'direct' );
 
 /**#@+
  * Authentication unique keys and salts.
@@ -90,6 +92,8 @@ $table_prefix = 'wp_';
 if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
 }
+
+define('WP_MEMORY_LIMIT', '256M');
 
 define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
